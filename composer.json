@@ -1,0 +1,22 @@
+{
+  "name": "sakhnovkrg/wooppay",
+  "description": "Прием платежей через Wooppay",
+  "keywords": ["wooppay"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexandr Sakhnov",
+      "email": "sakhnov.krg@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "ext-soap": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sakhnovkrg\\Wooppay\\": ""
+    }
+  }
+}
